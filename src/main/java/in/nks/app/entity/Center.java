@@ -11,22 +11,22 @@ import lombok.Setter;
 @Setter
 public class Center {
 	@JsonProperty("center_id")
-    private Integer centerId;
-    private String name;
-    private String address;
-    @JsonProperty("state_name")
-    private String stateName;
-    @JsonProperty("district_name")
-    private String districtName;
-    @JsonProperty("block_name")
-    private String blockName;
-    private Integer pincode;
-    private Integer lat;
-    @JsonProperty("long")
-    private Integer _long;
-    private String from;
-    private String to;
-    @JsonProperty("fee_type")
-    private String feeType;
-    private List<Session> sessions;
+	private Integer centerId;
+	private String name;
+	private String address;
+	@JsonProperty("state_name")
+	private String stateName;
+	@JsonProperty("district_name")
+	private String districtName;
+	@JsonProperty("block_name")
+	private String blockName;
+	private Integer pincode;
+	private Integer lat;
+	@JsonProperty("long")
+	private Integer _long;
+	private String from;
+	private String to;
+	@JsonProperty("fee_type")
+	private String feeType;
+	private List<Session> sessions;
 }

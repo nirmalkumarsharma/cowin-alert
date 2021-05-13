@@ -9,5 +9,5 @@ import lombok.Setter;
 @Getter
 @Setter
 public class CenterSearchResponse {
-    private List<Center> centers = new ArrayList<Center>();
+	private List<Center> centers = new ArrayList<Center>();
 }
